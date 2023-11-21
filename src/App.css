@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+.row1{
+  background-color: black;
+}
+
+.col1 .col11 {
+  font-family: 'Agdasima', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.col1 .col1-color{
+  font-family: 'Agdasima', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #A569BD, #5DADE2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent
+}
+
+.col1 .para{
+  font-family: 'Agdasima', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #48C9B0;
+}
+
+.col2 .headimg {
+  position: absolute;
+  right: 40;
+}
+
+.btn{
+  font-family: 'Agdasima', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #A569BD, #5DADE2);
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.join{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.3)), url("background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+input{
+  padding: 10px;
+  background-color: white;
+  margin: 10px 0px;
+}
+
+button{
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+  font-family: 'Agdasima', sans-serif;
+}
+
+.join button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #8E06E6; 
+  font-weight: bold;
+}
+
+.join button:hover {
+  opacity: 0.9;
+}
+
+.NavbarBrand{
+  flex: 1; 
+  text-align: center;
+}
+
+.join .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; 
+  background-color: white; 
+  padding: 15px; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333; 
+  padding: 10px 32px; 
+}
+
+.meeting{
+  width: 1536px; 
+  height: 786px;
+  background: url("bg2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
